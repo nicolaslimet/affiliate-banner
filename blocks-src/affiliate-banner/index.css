@@ -1,0 +1,73 @@
+.affiliate-banner-editor-wrap {
+    position: relative;
+}
+
+/************************* Set url param */
+.set-url-key-wrap {
+    position: relative;
+    max-width: 80vw;
+    padding: 1em;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.set-url-key-wrap > div {
+    padding: 1em 0;
+}
+
+.set-url-key-wrap-label {
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.set-url-key-wrap-label svg {
+    fill: currentColor;
+}
+
+.affiliate-banner-editor-wrap .abs-instruction {
+    font-size: .9rem;
+}
+
+.affiliate-banner-editor-wrap .abs-instruction p {
+    margin: 0;
+}
+
+.affiliate-banner-editor-wrap .components-base-control__field label {
+    text-transform: none;
+}
+
+.affiliate-banner-editor-wrap .components-base-control__field .components-text-control__input {
+    display: block;
+    height: 2.5em;
+    font-size: 1rem;
+}
+
+.affiliate-banner-editor-wrap button {
+    font-size: 1.1rem;
+}
+
+/************************ Edit url param */
+
+.affiliate-param-control-wrapper {
+    max-width: 400px;
+    min-width: auto;
+    width: 90vw;
+    overflow: hidden;
+    padding: 1em;
+}
+
+.affiliate-param-control__input-wrapper,
+affiliate-param-control__input-container {
+    position: relative;
+}
+
+.affiliate-param-control__enter-container {
+    position: absolute;
+    /* top: 39%;
+    right: 1%;*/
+    right: 12px;
+    bottom: 2px;
+}

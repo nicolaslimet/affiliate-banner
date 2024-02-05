@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "hdcpab/affiliate-name",
+  "version": "0.1.0",
+  "title": "Affiliate Name",
+  "category": "widgets",
+  "icon": "smiley",
+  "parent": [
+    "hdcpab/affiliate-banner"
+  ],
+  "attributes": {
+    "align": {
+      "type": "string"
+    },
+    "content": {
+      "default": "You are now shopping with",
+      "type": "rich-text",
+      "source": "rich-text",
+      "selector": "span",
+      "__experimentalRole": "content"
+    }
+  },
+  "supports": {
+    "lock": false,
+    "inserter": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalWritingMode": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "color": {
+      "text": true,
+      "background": true
+    }
+  },
+  "editorScript": "file:./index.js"
+}

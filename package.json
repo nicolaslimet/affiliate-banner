@@ -1,0 +1,14 @@
+{
+	"name": "affiliate-welcome-banner",
+	"scripts": {
+		"start": "wp-scripts start --webpack-src-dir=blocks-src --output-path=assets/js",
+		"build": "wp-scripts build --webpack-src-dir=blocks-src --output-path=assets/js"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^26.11.0"
+	},
+	"dependencies": {
+        "@wordpress/icons": "^9.41.0",
+		"classnames": "^2.5.1"
+	}
+}
